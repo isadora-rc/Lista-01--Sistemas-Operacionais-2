@@ -14,15 +14,15 @@ Em main.c, é feito o processamento de histograma de frequências e a soma total
 É necessário criar um arquivo primeiro, logo em geradorArquivo.c, faça:
 
 ``````
-gcc geradorArquivo.c -o geradorArquivo.o   #para compilar
-./geradorArquivo.o <nome_do_arquivo>.bin <quantidade_inteiros>   #para executar
+gcc geradorArquivo.c -o geradorArquivo.o   
+./geradorArquivo.o <nome_do_arquivo>.bin <quantidade_inteiros>  
 ``````
 
 Depois, em main.c, faça:
 
 ````
-gcc main.c -o main.o    //para compilar
-./main.o <nome_do_arquivo>.bin    //para executar
+gcc main.c -o main.o   
+./main.o <nome_do_arquivo>.bin    
 ````
 
 ### Decisões de sincronização
