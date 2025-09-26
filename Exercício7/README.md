@@ -37,12 +37,13 @@ gcc solucaoB.c -o solucaoB.o
 
 ### Decisões de sincronização
 **Solução A** = na solução A, foi utilizado o Mutex no garfo. A lógica utilizada é que o filósofo deve identificar o menor e maior indíces de seus garfos.
-**Solução B** = na solução B, foi utilizado o Semáforo na sala de jantar e o Mutex no garfo.
+<br> **Solução B** = na solução B, foi utilizado o Semáforo na sala de jantar e o Mutex no garfo.
 
 
 ### Evidências de execução
 Foi definido um tempo de simulação (100 s)
-** Saída da solução A** 
+
+**Saída da solução A**
 ```
 Filósofo 0: 8 refeições 
 Tempo médio: 0.26s
@@ -71,7 +72,7 @@ Média de refeições: 7.0
 
 
 
-** Saída da solução B** 
+**Saída da solução B** 
 ```
 Filósofo 0: 4 refeições 
 Tempo médio: 3.97s
