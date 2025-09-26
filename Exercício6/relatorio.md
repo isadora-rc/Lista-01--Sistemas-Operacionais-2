@@ -67,7 +67,7 @@ Soma total: 4994418219
 
 ### Análise dos resultados
 
-A partir das evidências de execução, é perceptível analisar que quanto maior o número de threads para o processamento, mais rápido o progrema finaliza.
+A partir das evidências de execução, é perceptível analisar que quanto maior o número de threads para o processamento, mais rápido o programa finaliza.
 
 Speedups calculados: 
 ```
